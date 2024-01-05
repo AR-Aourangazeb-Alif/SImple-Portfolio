@@ -20,7 +20,8 @@ header{
 nav{
     display: flex;
     justify-content: space-between;
-    padding: 3%;
+    padding-top: 3%;
+    padding-right: 3%;
     padding-left: 12% ;
     align-items: center;
 }
@@ -53,12 +54,37 @@ nav button{
     font-weight: 700;
 }
 
-.banner{
-    width: auto;
-    height: 78%;
-}
 
 .hardybackground{
     height: 400px;
-    transform: translate(722px, 109px);
+    transform: translate(722px, -148px);
+    position: absolute;
+}
+.hardy{
+    height: 510px;
+    transform: translate(900px, -257.9px);
+    position: absolute;
+}
+
+.baner{
+    margin-left: 12%;
+    margin-top: 8%;
+    max-width: 30%;
+}
+
+.baner > h1{
+    color: #474747;
+    font-size: 35px;
+    font-weight: 400;
+}.baner > h1 #name{
+    font-size: 60px;
+    color: #181818;
+    font-weight: 700;
+}
+
+.baner > p{
+    margin-top: 20px;
+    color: #757575;
+    font-size: 13px;
+    line-height: 20px;
 }
