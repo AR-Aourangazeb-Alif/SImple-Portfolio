@@ -52,3 +52,13 @@ nav button{
     font-size: 18px;
     font-weight: 700;
 }
+
+.banner{
+    width: auto;
+    height: 78%;
+}
+
+.hardybackground{
+    height: 400px;
+    transform: translate(722px, 109px);
+}
