@@ -57,13 +57,13 @@ nav button{
 
 .hardybackground{
     height: 400px;
-    transform: translate(708px, -147.5px);
+    transform: translate(708px, -147px);
     position: absolute;
 }
 .hardy{
     height: 510px;
     position: absolute;
-    transform: translate(890px, -257.5px);
+    transform: translate(890px, -257px);
 }
 
 .baner{
