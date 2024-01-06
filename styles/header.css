@@ -29,7 +29,10 @@ nav{
 nav > h1{
     font-size: 35px;
     font-weight: 800;
-}nav > h1 > span{
+}nav > h1:hover{
+    cursor: pointer;
+}
+nav > h1 > span{
     color: #FD6E0A;
 }
 
@@ -52,24 +55,30 @@ button{
     color: white;
     font-size: 18px;
     font-weight: 700;
+    transition: all 0.2s;
+}button:hover{
+    cursor: pointer;
+    opacity: 0.7;
+}button:active{
+    opacity: 0.3;
 }
 
 
 .hardybackground{
     height: 400px;
-    transform: translate(708px, -147px);
+    transform: translate(708px, -246px);
     position: absolute;
 }
 .hardy{
     height: 510px;
     position: absolute;
-    transform: translate(890px, -257px);
+    transform: translate(890px, -356px);
 }
 
 .baner{
     margin-left: 12%;
     margin-top: 8%;
-    max-width: 30%;
+    max-width: 38%;
 }
 
 .baner > h1{
@@ -85,7 +94,26 @@ button{
 .baner > p{
     margin-top: 20px;
     color: #757575;
-    font-size: 13px;
-    line-height: 20px;
+    line-height: 25px;
+}
+
+.bannerbutton{
+    margin: 30px 30px 0px 0px;
+}
+
+#contactbutton{
+    background-color: transparent;
+    border-color: #FD6E0A;
+    color: #FD6E0A;
+    border-style: solid;
+    border-width: 1px;
+    padding: 15px 29px;
+    transition: all 0.2s;
+}#contactbutton:hover{
+    background-color: #FD6E0A;
+    color: white;
+    opacity: 1;
+}#contactbutton:active{
+    opacity: 0.3;
 }
 
