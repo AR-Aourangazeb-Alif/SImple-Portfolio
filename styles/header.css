@@ -66,13 +66,13 @@ button{
 
 .hardybackground{
     height: 400px;
-    transform: translate(708px, -246px);
+    transform: translate(708px, -245px);
     position: absolute;
 }
 .hardy{
     height: 510px;
     position: absolute;
-    transform: translate(890px, -356px);
+    transform: translate(890px, -355px);
 }
 
 .baner{
