@@ -1,0 +1,42 @@
+footer{
+    height: 120vh;
+    width: 98.9vw;
+    background-color: #FFF8F3;
+    display: flex;
+}
+
+footer > section{
+    width: 50%;
+    padding: 150px 100px;
+}
+
+footer > .messegeme > form{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+
+footer p{
+    font-size: 14px;
+    line-height: 25px;
+    color: #474747;
+}footer h1{
+    margin-bottom: 18px;
+}
+
+footer input, footer textarea{
+    border-radius: 5px;
+    border-style: none;
+    padding: 20px 25px;
+}
+
+footer textarea{
+    resize: none;
+}
+
+footer input::placeholder, footer textarea::placeholder{
+    font-size: 16px;
+    font-weight: 400;
+}

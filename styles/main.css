@@ -1,9 +1,15 @@
-main{
+.details{
     margin: 110px 200px 0px;
     display: flex;
     flex-direction: column;
     gap: 110px;
     text-align: center;
+}
+
+h1{
+    font-size: 32px;
+    font-weight: 700;
+    color: #181818;
 }
 
 .aboutme{
@@ -14,11 +20,8 @@ main{
 }
 .aboutme > h1, .skills-ido h1{
     margin-bottom: 25px;
-    font-size: 32px;
-    color: #181818;
-    font-weight: 700;
 }
-.aboutme > p, .skills-ido p{
+.aboutme > p, .skills-ido p, .resumesummary > article > div{
     font-size: 15px;
     line-height: 25px;
     color: #757575;
@@ -75,19 +78,16 @@ main{
     font-size: 17px;
     font-weight: 700;
 }
-.skills > div > p{
+.skills > div > p, .resumesummary > article > div > p{
     font-size: 14px;
 }
 
-main > h1{
-    font-size: 32px;
-    font-weight: 700;
-    color: #181818;
-}
+
 
 .resumesummary{
     display: flex;
     text-align: left;
+    gap: 25px;
 }
 .resumesummary > article > h3{
     font-size: 25px;
@@ -100,5 +100,29 @@ main > h1{
     width: 50%;
 }
 .resumesummary > article > div{
-    margin-bottom: 50px;
+    margin-bottom: 25px;
+    padding-right: 40px;
+}
+
+hr{
+    margin-bottom: 25px;
+}
+
+.resumesummary > article > div > h4{
+    font-size: 20px;
+    font-weight: 700px;
+    color: #474747;
+    margin-bottom: 5px;
+}
+.resumesummary > article > div > h6{
+    font-size: 15px;
+    font-weight: 600px;
+    color: #757575;
+    margin-bottom: 20px;
+}
+
+.main-cv{
+    margin: 20px 0px 100px;
+    display: flex;
+    justify-content: center;
 }

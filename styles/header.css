@@ -44,7 +44,7 @@ nav > ul{
     text-decoration: none;
 }
 
-nav button{
+button{
     padding: 17px 31px;
     border-radius: 6%;
     background: #FD6E0A;
@@ -88,3 +88,4 @@ nav button{
     font-size: 13px;
     line-height: 20px;
 }
+
