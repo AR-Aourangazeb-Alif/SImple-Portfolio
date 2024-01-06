@@ -10,10 +10,12 @@ main{
 }.aboutme > h1{
     margin-bottom: 30px;
     font-size: 25px;
+    color: #181818;
 }
 .aboutme > p{
     font-size: 15px;
-    line-height: 20px;
+    line-height: 22px;
+    color: #757575;
 }
 .aboutme > ul{
     margin-top: 50px;
@@ -21,4 +23,9 @@ main{
     display: flex;
     list-style: none;
     justify-content: space-between;
+    color: #757575;
+    line-height: 22px;
+}.aboutme > ul span{
+    font-weight: 700;
+    color: #474747;
 }
