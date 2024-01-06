@@ -21,10 +21,11 @@ main{
     font-size: 15px;
     line-height: 25px;
     color: #757575;
+    font-weight: 400px;
 }
 .aboutme > ul{
     margin-top: 50px;
-    font-size: 17px;
+    font-size: 15px;
     display: flex;
     list-style: none;
     justify-content: space-between;
@@ -39,7 +40,7 @@ main{
 .skills-ido{
     display: flex;
     flex-direction: column;
-    gap: 20px;
+    gap: 40px;
 }
 
 .ido{
@@ -57,11 +58,21 @@ main{
     /* background-color: aqua; */
     display: flex;
     flex-direction: column;
-    padding: 20px;
-    gap: 20px;
+    padding: 25px;
     border-radius: 5px;
     box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
-}.skills > div > img{
+    gap: 18px;
+}
+
+.skills > div > img{
     height: 37px;
-    width: 40px;
+    width: 37px;
+    margin-bottom: 5px;
+}
+.skills > div > h3{
+    font-size: 17px;
+    font-weight: 700;
+}
+.skills > div > p{
+    font-size: 14px;
 }
