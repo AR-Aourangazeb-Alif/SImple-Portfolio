@@ -4,6 +4,10 @@
     font-family: 'Open Sans', sans-serif;
 }
 
+html{
+    overflow-x: hidden;
+}
+
 p{
     color: #757575;
     font-size: 1.125vw;
