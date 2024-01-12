@@ -1,119 +1,26 @@
-*{
-    margin: 0px;
-    padding: 0px;
-    font-family: 'Open Sans', sans-serif;
-}
-
 header{
-    height: 100vh;
-    width: 98.9vw;
     background-color: #FFF8F3;
+    height: 47.5vw;
+    width: 98.9385vw;
+    position: relative;
 }
 
+header > img{
+    position: absolute;
+}
 
 #developer{
-    height: 92%;
-    transform: translate(50%, 4.5%);
-    position: absolute;
+    height: 95%;
+    top: 2.5%;
+    left: 2.3%;
 }
-
-nav{
-    display: flex;
-    justify-content: space-between;
-    padding-top: 3%;
-    padding-right: 3%;
-    padding-left: 12% ;
-    align-items: center;
+#hardy{
+    height: 80.7646%;
+    right: 2.375%;
+    bottom: 0%;
 }
-
-nav > h1{
-    font-size: 35px;
-    font-weight: 800;
-}nav > h1:hover{
-    cursor: pointer;
+#hardy-bg{
+    height: 61.887694%;
+    right: 0%;
+    bottom: 0%;
 }
-nav > h1 > span{
-    color: #FD6E0A;
-}
-
-nav > ul{
-    display: flex;
-    list-style: none;
-    width: 40%;
-    align-items: center;
-    justify-content: space-evenly;
-}nav li, nav a{
-    color: #474747;
-    text-decoration: none;
-}
-
-button{
-    padding: 17px 31px;
-    border-radius: 6%;
-    background: #FD6E0A;
-    border: none;
-    color: white;
-    font-size: 18px;
-    font-weight: 700;
-    transition: all 0.2s;
-}button:hover{
-    cursor: pointer;
-    opacity: 0.7;
-}button:active{
-    opacity: 0.3;
-}
-
-
-.hardybackground{
-    height: 400px;
-    transform: translate(708px, -245px);
-    position: absolute;
-}
-.hardy{
-    height: 510px;
-    position: absolute;
-    transform: translate(890px, -355px);
-}
-
-.baner{
-    margin-left: 12%;
-    margin-top: 8%;
-    max-width: 38%;
-}
-
-.baner > h1{
-    color: #474747;
-    font-size: 35px;
-    font-weight: 400;
-}.baner > h1 #name{
-    font-size: 60px;
-    color: #181818;
-    font-weight: 700;
-}
-
-.baner > p{
-    margin-top: 20px;
-    color: #757575;
-    line-height: 25px;
-}
-
-.bannerbutton{
-    margin: 30px 30px 0px 0px;
-}
-
-#contactbutton{
-    background-color: transparent;
-    border-color: #FD6E0A;
-    color: #FD6E0A;
-    border-style: solid;
-    border-width: 1px;
-    padding: 15px 29px;
-    transition: all 0.2s;
-}#contactbutton:hover{
-    background-color: #FD6E0A;
-    color: white;
-    opacity: 1;
-}#contactbutton:active{
-    opacity: 0.3;
-}
-
